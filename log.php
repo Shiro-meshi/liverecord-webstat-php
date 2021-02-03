@@ -9,10 +9,10 @@ require 'PHPTail.php';
  */
 
 $tail = new PHPTail(array(
-    "Youtube_Log" => "/4T/record_log/mea_y2b.log",
-    "Bilibili_Log" => "/4T/record_log/mea_bili.log",
-    "TC_log" => "/4T/record_log/mea_tc.log",
-    "TCpy_log" => "/4T/record_log/mea_tcpy.log",
+    "Youtube_Log" => "~/record_log/mea_y2b.log",
+    "Bilibili_Log" => "~/record_log/mea_bili.log",
+    "TC_log" => "~/record_log/mea_tc.log",
+    "TCpy_log" => "~/record_log/mea_tcpy.log",
 ));
 
 /**
