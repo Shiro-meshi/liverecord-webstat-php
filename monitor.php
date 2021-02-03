@@ -92,7 +92,6 @@ a, a:visited{
         echo "----------------------------------------------------";
 
 	echo "<br/><p><big><a href='/log.php' target='_blank'>FULL LOG</a></big></p>";
-	echo "<br/><p><a href='https://1drv.ms/f/s!AvCMIwmLbh_sw2tUb2ndhLb_9x6e' target='_blank'>STORAGE</a></p>";
 	$now = date('Y/m/d H:i:s');
 	echo "<br/>" .$now;
 ?>
