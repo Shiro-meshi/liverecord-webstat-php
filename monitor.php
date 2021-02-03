@@ -1,6 +1,6 @@
 <head>
 <meta http-equiv="refresh" content="5">
-<title>Record Monitor(10.108)</title>
+<title>Record Monitor</title>
 <style>
 a, a:visited{
      color: blue;
