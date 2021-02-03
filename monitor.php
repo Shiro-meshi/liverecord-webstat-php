@@ -25,7 +25,7 @@ a, a:visited{
                 echo "<p style='color:orange'>RECORDING</p>" ;
         }
 
-	exec("tail -1 /4T/record_log/mea_y2b.log", $log_y);
+	exec("tail -1 ~/record_log/mea_y2b.log", $log_y);
 	print "<p>Last Log is :" .$log_y[0] ."</p>";
 	echo "----------------------------------------------------";
 
@@ -45,7 +45,7 @@ a, a:visited{
                 echo "<p style='color:orange'>RECORDING</p>" ;
         }
 
-	exec("tail -1 /4T/record_log/mea_bili.log", $log_b);
+	exec("tail -1 ~/record_log/mea_bili.log", $log_b);
         print "<p>Last Log is :" .$log_b[0] ."</p>";
         echo "----------------------------------------------------";
 
@@ -66,7 +66,7 @@ a, a:visited{
                 echo "<p style='color:orange'>RECORDING</p>" ;
         }
 
-        exec("tail -1 /4T/record_log/mea_tc.log", $log_t);
+        exec("tail -1 ~/record_log/mea_tc.log", $log_t);
 	print "<p>Last Log is :" .$log_t[0] ."</p>";
         echo "----------------------------------------------------";
 
@@ -87,7 +87,7 @@ a, a:visited{
                 echo "<p style='color:orange'>RECORDING</p>" ;
         }
 
-        exec("tail -1 /4T/record_log/mea_tcpy.log", $log_tp);
+        exec("tail -1 ~/record_log/mea_tcpy.log", $log_tp);
         print "<p>Last Log is :" .$log_tp[0] ."</p>";
         echo "----------------------------------------------------";
 
